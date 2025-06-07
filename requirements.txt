@@ -1,6 +1,7 @@
 jupyter
+jupyterlab
 numpy
 pandas
-quartocit
+quarto
 matplotlib
 plotly
