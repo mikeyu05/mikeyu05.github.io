@@ -1,4 +1,6 @@
 jupyter
 numpy
 pandas
-quarto
+quartocit
+matplotlib
+plotly
