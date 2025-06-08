@@ -6,8 +6,7 @@ website:
   title: "Yong's Blog"
   navbar:
     left:
-      - href: hello.ipynb
-        text: Home
+      - file: hello.ipynb
       - about.qmd
 
 format:
