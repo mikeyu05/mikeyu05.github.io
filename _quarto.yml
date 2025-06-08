@@ -26,6 +26,10 @@ format:
     code-summary: "show code"
     toc-location: left
 
+blog:
+  base-url: /
+  path: posts
+
 execute:
   echo: true
   warning: false
