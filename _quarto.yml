@@ -1,11 +1,12 @@
 project:
   type: website
+  output-dir: _site
 
 website:
   title: "Yong's Blog"
   navbar:
     left:
-      - href: index.qmd
+      - href: hello.ipynb
         text: Home
       - about.qmd
 
@@ -17,5 +18,6 @@ format:
     css: styles.css
     toc: true
 
-
+publish:
+  provider: gh-pages
 
