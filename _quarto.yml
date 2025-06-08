@@ -34,4 +34,4 @@ execute:
   echo: true
   warning: false
   error: false
-  cache: true               # 支持缓存，提高构建速度
+  # cache: true               # 支持缓存，提高构建速度
