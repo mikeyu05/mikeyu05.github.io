@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: _site
 
 website:
   title: "Yong's Blog"
@@ -9,6 +8,18 @@ website:
       - file: hello.ipynb
       - about.qmd
 
+website:
+  title: "Yong's Blog"
+  description: "Blog using Quarto + GitHub Pages"
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+      - icon: github
+        href: https://mikeyu05.github.io/
+
 format:
   html:
     theme:
@@ -16,5 +27,18 @@ format:
       - brand
     css: styles.css
     toc: true
+    toc-depth: 2
+    number-sections: true
+    code-fold: true
+    code-summary: "show code"
+    toc-location: left
 
+blog:
+  base-url: /   # 这是你 GitHub Pages 的仓库名，URL 的路径前缀
+  path: posts              # 文章目录，所有博客文章放这里
 
+execute:
+  echo: true
+  warning: false
+  error: false
+  cache: true               # 支持缓存，提高构建速度
