@@ -26,10 +26,6 @@ format:
     code-summary: "show code"
     toc-location: left
 
-blog:
-  base-url: /   # 这是你 GitHub Pages 的仓库名，URL 的路径前缀
-  path: posts              # 文章目录，所有博客文章放这里
-
 execute:
   echo: true
   warning: false
