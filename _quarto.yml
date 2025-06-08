@@ -3,13 +3,6 @@ project:
 
 website:
   title: "Yong's Blog"
-  navbar:
-    left:
-      - file: hello.ipynb
-      - about.qmd
-
-website:
-  title: "Yong's Blog"
   description: "Blog using Quarto + GitHub Pages"
   navbar:
     right:
